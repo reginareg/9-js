@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
-    "js": "nodemon ./js/04.02js",
+    "js": "nodemon ./js/variables.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
