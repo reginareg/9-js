@@ -4,9 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon",
+    "js": "nodemon ./js/04.02js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reginareg/9-js.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reginareg/9-js/issues"
+  },
+  "homepage": "https://github.com/reginareg/9-js#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
