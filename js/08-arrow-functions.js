@@ -33,3 +33,14 @@ console.log(r4);
 const kvadratu = a => a * a;
 const r5 = kvadratu(pirmas);
 console.log(r5);
+
+// arrow (rodykline) funkcija
+// jei parametru bloke () yra tik 1 parametras, tai galime nerasyti ()
+const kvadratu = a => a * a;
+const r5 = kvadratu(pirmas);
+console.log(r5);
+
+
+const tekstas = 'Labas rytas';
+const pirmaRaide = s => s[0];
+console.log(pirmaRaide(tekstas));
