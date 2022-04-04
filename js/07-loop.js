@@ -1,5 +1,6 @@
 /*
-LOOP: for, while, for-in, for-of, foreach, ...
+LOOP: for, while, for-of, foreach, ...
+OBJECT LOOP: for-in
 */
 
 const pazymiai = [10, 2, 8, 4, 6];
