@@ -4,16 +4,18 @@ OBJECT LOOP: for-in
 */
 
 const pazymiai = [10, 2, 8, 4, 6];
-let suma = 0;
+
+// FOR
+let sumaFor = 0;
 
 for (let i = 0; i < pazymiai.length; i++) {
     const pazymys = pazymiai[i];
-    suma += pazymys;
+    sumaFor += pazymys;
 
-    console.log(`${i}) pazymys ${pazymys} [${suma}]`);
+    console.log(`${i}) pazymys ${pazymys} [${sumaFor}]`);
 }
 
-const vidurkis = suma / pazymiai.length;
+const vidurkis = sumaFor / pazymiai.length;
 console.log('Vidurkis:', vidurkis);
 
 // WHILE
